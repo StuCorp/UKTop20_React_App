@@ -21,7 +21,7 @@ export default class ChartDisplayContainer extends React.Component{
       if(request.status ===200){
         const jsonString = request.responseText;
         const data = JSON.parse(jsonString);
-        debugger;
+        // debugger;
         this.setState({
           top20songs: data.feed.entry
         });
@@ -37,8 +37,7 @@ export default class ChartDisplayContainer extends React.Component{
         <div className="chart-container">
           <Header />
           <Chart top20songs={this.state.top20songs}/>
-
-
+          <Footer />
         </div>
       )
   }

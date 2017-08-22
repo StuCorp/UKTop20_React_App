@@ -8,7 +8,7 @@ export default class Chart extends React.Component{
   }
   const chartSongs = this.props.top20songs.map( (song, index)=>{
     return ( 
-    <Song hitSong={song} key={index}/>
+    <Song hitSong={song} key={index} pos={index + 1}/>
     )
   } );
 

@@ -1,5 +1,70 @@
+.chart-container{
+  background: linear-gradient(white, black); /* Standard syntax */
+
+}
+
+.chart-header, .chart-footer{
+  font-size: 100px;
+  text-align: center;
+  background-color: #222;
+
+  padding: 20px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.chart-footer{
+  background-color: rgba(0,0,0,0);
+}
+
+.chart-songs{
+  color:deeppink;
+  display: block;
+  position: relative;
+}
+
+.Song{
+  display: flex;
+  position: relative;
+  margin: 20px;
+}
+
+.chart-pos{
+  margin-right: 20px;
+  width: 70px;
+}
+
+.buy-this{
+  margin-top: 16px;
+  margin-right: 40px;
+}
+
+.react-audio-player{
+  margin-top: 16px;
+}
+
+.song-specifics{
+  list-style-type: none;
+  margin-right: 40px;
+  width: 200px;
+}
+
+.song-title{
+
+}
+.song-artist{
+ color: dimgrey;
+  
+}
+
+.song-genre{
+ color: darkgrey;
+}
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
