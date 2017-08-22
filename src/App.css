@@ -22,6 +22,8 @@
   color:deeppink;
   display: block;
   position: relative;
+  height: 700px;
+  overflow-y:auto;
 }
 
 .Song{
@@ -51,6 +53,8 @@
 }
 
 .song-title{
+
+
 
 }
 .song-artist{
