@@ -1,3 +1,11 @@
+# UKTop20
+
+## Simple React Chart Music app!
+A React app that makes an api request to itunes for the chart top 20 (https://itunes.apple.com/gb/rss/topsongs/limit=20/json) and renders it into a list.
+
+<img width="1254" alt="UK Top 20 React App, main page" src="https://user-images.githubusercontent.com/27961805/32433217-339cddf6-c2d2-11e7-9579-b7d291e35240.png">
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
